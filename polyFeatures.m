@@ -15,7 +15,7 @@ X_poly = zeros(numel(X), p);
 %
 % 
 
-
+X_poly = X .^ [1:p]; %works only if X is m x 1 size (one column)
 
 
 
